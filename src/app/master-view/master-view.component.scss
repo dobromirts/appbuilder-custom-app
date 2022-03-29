@@ -1,0 +1,36 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.group {
+  width: 25%;
+  flex-shrink: 0;
+  align-items: stretch;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_1 {
+  flex-grow: 1;
+  flex-basis: 0;
+  align-items: stretch;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.select {
+  height: max-content;
+  min-width: min-content;
+}
+.grid {
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
