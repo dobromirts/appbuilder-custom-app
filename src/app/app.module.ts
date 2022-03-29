@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MasterViewComponent } from './master-view/master-view.component';
-import { IgxSelectModule, IgxGridModule } from 'igniteui-angular';
+import { IgxSelectModule, IgxGridModule, IgxCardModule, IgxButtonModule, IgxRippleModule, IgxIconModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -19,6 +19,10 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     IgxSelectModule,
     IgxGridModule,
+    IgxCardModule,
+    IgxButtonModule,
+    IgxRippleModule,
+    IgxIconModule,
     FormsModule
   ],
   providers: [],
